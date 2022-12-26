@@ -243,7 +243,7 @@
                             Chapter One would love to be a part of your wedding! 
                             Our photography packages start at $1,500 and our video packages start at $1,900. We understand contact forms like the one below are a pain. We read every single inquiry we receive and promise to get back to you within 48 hours. We can’t wait to hear from you!
                         </p>
-                        <form id="contact__form" onsubmit="contact(event)">
+                        <form id="contact__form" method="POST" data-netlify="true">
                             <div class="df df-col">
                                 <div class="form__item me-3 col">
                                     <label for="nam">First Name</label>
@@ -292,7 +292,7 @@
                                 <label for="nam">Your Message</label>
                                 <textarea type="text" class="input textarea" name="message"></textarea>
                             </div>
-                            <button class="contact__button form-button click button-dhover">Send It My Way</button>
+                            <button type="submit" class="contact__button form-button click button-dhover">Send It My Way</button>
                         </form>
                     </div>
                 </div>
